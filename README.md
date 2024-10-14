@@ -1,17 +1,17 @@
-# Calculations of Void Fraction 
+# Calculations of Porosity 
 
 ## Foreword
 
-This repository contains a Python script and a Jupyter Notebook for analyzing atomic position data from simulation output files. The script calculates the fraction of the space occupied by atoms, analyzes the dilatation in the simulation cell, and visualizes the results. 
+This repository contains a Python script and a Jupyter Notebook for analyzing atomic position data from simulation output files. The script calculates the porosity of the material based on the space occupied by the atoms, analyzes the dilatation in the simulation cell, and visualizes the results. 
 
 
 ## Features
 
-Data Reading: Parses atomic positions and cell boundaries from input files.
+Data Reading: Recognizes atomic positions and cell boundaries from input files.
 
 Calculation: Computes the fraction of the simulation cell occupied by atoms and the dilatation of the cell.
 
-Output: Saves results to a text file of the void fraction vs. dilatation.
+Output: Saves results to a text file of the porosity vs. dilatation.
 ## Prerequisites
 * Python 3.x
 * NumPy
