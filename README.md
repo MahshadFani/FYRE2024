@@ -12,6 +12,9 @@ Data Reading: Recognizes atomic positions and cell boundaries from input files.
 Calculation: Computes the fraction of the simulation cell occupied by atoms and the dilatation of the cell.
 
 Output: Saves results to a text file of the porosity vs. dilatation.
+
+The script is designed for the case where R = 0.772. To adapt the script for R = 2.316, the number of divisions should be changed from 21 to 63.
+
 ## Prerequisites
 * Python 3.x
 * NumPy
