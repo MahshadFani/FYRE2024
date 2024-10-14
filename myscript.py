@@ -35,8 +35,8 @@ def calculate_porosity(atom_positions, cell_bounds, divisions):
     return porosity
 
 def main():
-    input_directory = '/scratch/mahshad1994/Cu31/10'
-    output_directory = '/home/mahshad1994/Python.Code/Cu31/10'
+    input_directory = '/path/to/your/root'
+    output_directory = '/path/to/your/root'
     output_file_path = os.path.join(output_directory, 'results.txt')
     divisions = 21
     initial_lengths = None
